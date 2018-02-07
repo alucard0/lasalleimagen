@@ -477,11 +477,14 @@ include 'header.php';
 									<img src="images/contenido/papeleria/2_SantaTeresa_160x140.jpg" class="img-responsive" alt="">
 								</figure></a>
 							</div>
-							<div class="row border_rows"><!--Unidad Santa lucia-->
+							<!--Unidad Santa lucia-->
+							<!--
+							<div class="row border_rows">
 								<a id="word_santaLucia"><figure>
 									<img src="images/contenido/papeleria/4_SantaLucia_160x140.jpg" class="img-responsive" alt="">
 								</figure></a>
 							</div>
+							-->
 						</div>
 				 	</div>
 				</div>
