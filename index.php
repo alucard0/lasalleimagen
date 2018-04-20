@@ -44,6 +44,7 @@ include 'header.php';
 					<p class="subtitulo_introduccion">Solicitud de servicios</p>
 					<p><a id="solicitud_foto_video" class="subtitulo_introduccion2">Solicitud de foto y video <span class="glyphicon glyphicon-download-alt"></span></a></p>
 					<p><a id="solicitud_diseno" class="subtitulo_introduccion2">Solicitud de diseño <span class="glyphicon glyphicon-download-alt"></span></a></p>
+					<p><a id="uso_pantalla" class="subtitulo_introduccion2">Uso de la pantalla<span class="glyphicon glyphicon-download-alt"></span></a></p>
 				</div>
 			</div>
 		</div>

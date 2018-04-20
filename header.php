@@ -44,7 +44,14 @@
     <!-- HEADER-->
     <header class="container logo"> 
       <div class="row">
-        <a href="http://lasalle.mx"><img src="images/header/imagotipo/logo55.png" alt="La Salle" class="img-responsive"></a>
+      	<div class="col-sm-12">
+      		<a href="http://lasalle.mx">
+      			<figure>
+      				<img src="images/header/imagotipo/logo.png" alt="La Salle" class="img-responsive">
+      			</figure>
+      		</a>
+      	</div>
+        
       </div>
     </header>
 

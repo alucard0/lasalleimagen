@@ -180,7 +180,9 @@ header{
     background: #000; 
 }
 
-
+.logo{
+  margin-top: 10px;
+}
 /*Fin header*/
 
 /*images*/

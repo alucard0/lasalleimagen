@@ -38,6 +38,11 @@ jQuery(function($){
 		    		window.location.href = 'modelo/DescargaArchivo.php?file=../descargables/solicitudes/brief-Diseno_rellenable.pdf';
 		    	break;
 
+		    	/*solicitud_diseno*/
+		    	case 'uso_pantalla':
+		    		window.location.href = 'modelo/DescargaArchivo.php?file=../descargables/pantalla/Usodelapantalla.pdf';
+		    	break;
+
 
 		    	/*botones_manuales
 		    	boton_manual_imagotipo*/
