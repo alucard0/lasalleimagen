@@ -1,4 +1,195 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+/*FONTS*/
+
+/*Sans*/
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-Black.otf");
+  src: url("fonts/eot/IndivisaTextSans-Black.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-Black.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-Black.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-Black.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-Black.svg") format('svg');
+  font-weight: 700;
+  font-display: auto;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-BlackItalic.otf");
+  src: url("fonts/eot/IndivisaTextSans-BlackItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-BlackItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-BlackItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-BlackItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-BlackItalic.svg") format('svg');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-Bold.otf");
+  src: url("fonts/eot/IndivisaTextSans-Bold.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-Bold.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-Bold.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-Bold.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-Bold.svg") format('svg');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-BoldItalic.otf");
+  src: url("fonts/eot/IndivisaTextSans-BoldItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-BoldItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-BoldItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-BoldItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-BoldItalic.svg") format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-Light.otf");
+  src: url("fonts/eot/IndivisaTextSans-Light.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-Light.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-Light.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-Light.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-Light.svg") format('svg');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-LightItalic.otf");
+  src: url("fonts/eot/IndivisaTextSans-LightItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-LightItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-LightItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-LightItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-LightItalic.svg") format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-Regular.otf");
+    src: url("fonts/eot/IndivisaTextSans-Regular.eot") format('embedded-opentype'),
+         url("fonts/woff2/IndivisaTextSans-Regular.woff2") format('woff2'),
+         url("fonts/woff/IndivisaTextSans-Regular.woff") format('woff'),
+         url("fonts/ttf/IndivisaTextSans-Regular.ttf") format('truetype'),
+         url("fonts/svg/IndivisaTextSans-Regular.svg") format('svg')
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/otf/IndivisaTextSans-RegularItalic.otf");
+  src: url("fonts/eot/IndivisaTextSans-RegularItalic.eot") format('embedded-opentype'),
+       url("fonts/woff2/IndivisaTextSans-RegularItalic.woff2") format('woff2'),
+       url("fonts/woff/IndivisaTextSans-RegularItalic.woff") format('woff'),
+       url("fonts/ttf/IndivisaTextSans-RegularItalic.ttf") format('truetype'),
+       url("fonts/svg/IndivisaTextSans-RegularItalic.svg") format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/*Text Sans*/
+/*
+    p.variantes,
+    section#sistemaTipografico p.varianteSubtitulo1,
+    section#sistemaTipografico p.varianteSubtitulo2,
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black,
+    section#descargas p.contenido span,
+    section#aplicaciones p.paratodoDescripcion,
+    section#aplicaciones p.paratodoDescripcion2,
+    section#aplicaciones div.modal p.titulo,
+    h1.tituloConoce,
+    section#sistemaTipografico div.letrasA.TextSans p span.black,
+    section#sistemaTipografico div.letrasN.TextSans p span.black,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.black,
+    section#multilinguistico p.numeraria,
+    section#multilinguistico p.head{
+      font-family: "IndivisaTextSans";
+      font-weight: 700;
+      font-style: normal;
+    }
+    section#sistemaTipografico div.text p.familiaTitulo.sans,
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.black-italic,
+    section#sistemaTipografico div.letrasA.TextSans-Italic p span.black,
+    section#sistemaTipografico div.letrasN.TextSans p span.black-italic,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.black-italic{
+      font-family: "IndivisaTextSans";
+      font-weight: 700;
+      font-style: italic;
+    }
+    .fraseIntro2,p.tituloTipografiaTodos span,
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold,
+    h2.subtituloConoce,
+    section#sistemaTipografico div.letrasA.TextSans p span.bold,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.bold{
+      font-family: "IndivisaTextSans";
+      font-weight: 600;
+    }
+    .fraseIntro2,p.tituloTipografiaTodos span,
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.bold-italic,
+    section#sistemaTipografico p.subtituloSistemaConoce,
+    section#sistemaTipografico div.letrasA.TextSans-Italic p span.bold,
+    section#familiasyExtensiones p.subtitulo,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.bold-italic,
+    section#multilinguistico p.subtitulo,
+    section#multilinguistico p.head span{
+      font-family: "IndivisaTextSans";
+      font-weight: 600;
+      font-style: italic;
+    }
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular,
+    section#aplicaciones p.paratodoDescripcion span,
+    section#aplicaciones p.paratodoDescripcion2 span,
+    section#sistemaTipografico div.letrasA.TextSans p span.regular,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.regular,
+    section#multilinguistico p.numeraria span{
+      font-family: "IndivisaTextSans";
+      font-weight: 400;
+    }
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.regular-italic,
+    section#descargas p.subtitulo,
+    section#descargas h5.modal-title,
+    section#sistemaTipografico div.letrasA.TextSans-Italic p span.regular,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.regular-italic{
+      font-family: "IndivisaTextSans";
+      font-weight: 400;
+      font-style: italic;
+    }
+    section#sistemaTipografico div.text p.familiaVarianteTitulo,
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light,
+    section#descargas p.titulo,
+    section#aplicaciones div.modal p.descripcion,
+    section#sistemaTipografico div.letrasA.TextSans p span.light,
+    section#sistemaTipografico div.letrasN.TextSans p span.light,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light,
+    section#instagram p.subtitulo{
+      font-family: "IndivisaTextSans";
+      font-weight: 300;
+    }
+    section#sistemaTipografico div.text div.sans p.nombreVarianteTipo.light-italic,
+    section#sistemaTipografico div.letrasA.TextSans-Italic p span.light,
+    section#sistemaTipografico div.letrasN.TextSans p span.light-italic,
+    section#familiasyExtensiones div.text div.sans p.nombreVarianteTipo.light-italic{
+      font-family: "IndivisaTextSans";
+      font-weight: 300;
+      font-style: italic;
+    }
+  
+*/
 
 h1,h2,h3,p
 {
