@@ -9,7 +9,7 @@ include 'header.php';
 
 
 <!--container informacion-->
-<section class="container">
+<section class="container-fluid">
 	<div class="introduccion">
 		<div class="row">
 			<div class="col-sm-12">
@@ -22,16 +22,16 @@ include 'header.php';
 			<div class="row">
 				<div class="col-sm-4 border_subtitulo_introduccion">
 					<p class="subtitulo_introduccion">Manuales</p>
-					<a id="manual_imagotipo"><p class="subtitulo_introduccion2">Aplicación de imagotipo institucional <span class="glyphicon glyphicon-download-alt"></span></p></a>
-					<a id="manual_plecas"><p class="subtitulo_introduccion2">Aplicación de plecas institucionales <span class="glyphicon glyphicon-download-alt"></span></p></a>
-					<a id="manual_legales"><p class="subtitulo_introduccion2">Aplicación de <br>contraportada institucional <span class="glyphicon glyphicon-download-alt"></span></p></a>
+					<a id="manual_imagotipo"><p class="subtitulo_introduccion2">Aplicación de imagotipo institucional <i class="fas fa-download"></i></p></a>
+					<a id="manual_plecas"><p class="subtitulo_introduccion2">Aplicación de plecas institucionales <i class="fas fa-download"></i></p></a>
+					<a id="manual_legales"><p class="subtitulo_introduccion2">Aplicación de <br>contraportada institucional <i class="fas fa-download"></i></p></a>
 					
-					<a id="protocolo_institucional_completo"><p class="subtitulo_introduccion2">Manual de<br>protocolo institucional <span class="glyphicon glyphicon-download-alt"></span></p></a>
+					<a id="protocolo_institucional_completo"><p class="subtitulo_introduccion2">Manual de<br>protocolo institucional <i class="fas fa-download"></i></p></a>
 
 					<p><a href="#protocolo_institucional" class="subtitulo_introduccion2">Protocolo institucional</a></p>
 					
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 border_subtitulo_introduccion">
 					<p class="subtitulo_introduccion">Identidad institucional</p>
 					<p><a href="#imagotipo" class="subtitulo_introduccion2">Imagotipo</a></p>
 					<p><a href="#legales" class="subtitulo_introduccion2">Legales para impresos</a></p>
@@ -42,9 +42,9 @@ include 'header.php';
 				</div>
 				<div class="col-sm-4">
 					<p class="subtitulo_introduccion">Solicitud de servicios</p>
-					<p><a id="solicitud_foto_video" class="subtitulo_introduccion2">Solicitud de foto y video <span class="glyphicon glyphicon-download-alt"></span></a></p>
-					<p><a id="solicitud_diseno" class="subtitulo_introduccion2">Solicitud de diseño <span class="glyphicon glyphicon-download-alt"></span></a></p>
-					<p><a id="uso_pantalla" class="subtitulo_introduccion2">Uso de la pantalla<span class="glyphicon glyphicon-download-alt"></span></a></p>
+					<p><a id="solicitud_foto_video" class="subtitulo_introduccion2">Solicitud de foto y video <i class="fas fa-download"></i></a></p>
+					<p><a id="solicitud_diseno" class="subtitulo_introduccion2">Solicitud de diseño <i class="fas fa-download"></i></a></p>
+					<p><a id="uso_pantalla" class="subtitulo_introduccion2">Uso de la pantalla<i class="fas fa-download"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -66,7 +66,7 @@ include 'header.php';
 			 	<p class="instrucciones">El imagotipo es el identificativo de la institución y refleja 
 			 	nuestros valores.</p>
 			 	<p class="manual_aplicacion">Manual de aplicación</p>
-			 	<a id="boton_manual_imagotipo" class="botonAzul">Descarga <span class="glyphicon glyphicon-download-alt"></span></a>
+			 	<a id="boton_manual_imagotipo" class="botonAzul">Descarga <i class="fas fa-download"></i></a>
 			</div>
 
 			<div class="col-sm-6">
@@ -111,7 +111,7 @@ include 'header.php';
 								</a>
 							</div>
 							<div class="row border_rows"><!--Todos-->
-								<a id="todos_jpg" class="botonAzul_descargaTodo">Descarga <br> set completo<span class="glyphicon glyphicon-download-alt"></span></a>
+								<a id="todos_jpg" class="botonAzul_descargaTodo">Descarga <br> set completo<i class="fas fa-download"></i></a>
 							</div>
 						</div>
 					</div>
@@ -155,7 +155,7 @@ include 'header.php';
 								</figure></a>
 							</div>
 							<div class="row border_rows_PNG"><!--Todos-->
-								<a id="todos_png" class="botonAzul_descargaTodo">Descarga <br>set completo<span class="glyphicon glyphicon-download-alt"></span></a>
+								<a id="todos_png" class="botonAzul_descargaTodo">Descarga <br>set completo<i class="fas fa-download"></i></a>
 							</div>
 						</div>
 					</div>
@@ -177,7 +177,7 @@ include 'header.php';
 			 	
 			 	<figure><img src="images/contenido/legales/Legal_ejemplo_170x180.png" class="img-responsive instrucciones2" alt=""></figure>
 			 	<p class="manual_aplicacion">Manual de aplicación</p>
-			 	<a id="boton_manual_legales" class="botonAzul">Descarga <span class="glyphicon glyphicon-download-alt"></span></a>
+			 	<a id="boton_manual_legales" class="botonAzul">Descarga <i class="fas fa-download"></i></a>
 			</div>
 			<div class="col-sm-6">
 				<div class="separacion_descargables">
@@ -279,7 +279,7 @@ include 'header.php';
 				<p class="instrucciones">Los videos que se publiquen en la pantalla deberán integrar la cortinilla institucional de cierre.</p>
 			 	<figure><img src="images/contenido/cortinilla/1_CORTINILLA_EJEMPLO_LASALLE_2017_250X220.png" class="img-responsive instrucciones2" alt=""></figure>
 			 	<p class="manual_aplicacion">Definición de servicio pantalla publicitaria</p>
-			 	<a id="boton_uso_pantalla" class="botonAzul">Descarga <span class="glyphicon glyphicon-download-alt"></span></a>
+			 	<a id="boton_uso_pantalla" class="botonAzul">Descarga <i class="fas fa-download"></i></a>
 			</div>
 			<div class="col-sm-6">
 				<div class="separacion_descargables">
@@ -324,7 +324,7 @@ include 'header.php';
 				<p class="instrucciones">El uso de la pleca institucional es requisito para cualquier material de difusión impreso.</p>
 				<p class="instrucciones_gris">Flyers<br>Trípticos<br>Dípticos<br>Carteles carta / oficio / tabloide / 90 x 60<br>Mantas<br>Roll up<br>X banner<br>Tótem</p>
 				<p class="manual_aplicacion">Manual de aplicación</p>
-			 	<a id="boton_manual_plecas" class="botonAzul">Descarga <span class="glyphicon glyphicon-download-alt"></span></a>
+			 	<a id="boton_manual_plecas" class="botonAzul">Descarga <i class="fas fa-download"></i></a>
 			</div>
 			<div class="col-sm-6">
 				<div class="separacion_descargables">
@@ -403,7 +403,7 @@ include 'header.php';
 				 	<div class="row border_rows">
 				 		<div class="col-sm-3">
 							<p class="titulo_descargables2">Display</p>
-							<p class="subtitulo_descargables2" style="font-size: 13px">(Tótem / X banner)</p>
+							<p class="subtitulo_descargables2" >(Tótem /<br> X banner)</p>
 							<p class="subtitulo_descargables2">JPG</p>
 						</div>
 						<!--totem-->
@@ -506,7 +506,7 @@ include 'header.php';
 			 	<figure><img src="images/contenido/manual_protocolo/2_PROTOCOLO_EJEMPLO.png" class="img-responsive instrucciones" alt=""></figure>
 			 	
 			 	<p class="manual_aplicacion">Guía Rápida</p>
-			 	<a id="boton_guia_rapida" class="botonAzul">Descarga <span class="glyphicon glyphicon-download-alt"></span></a>
+			 	<a id="boton_guia_rapida" class="botonAzul">Descarga <i class="fas fa-download"></i></a>
 
 			 	<p class="instrucciones">¿Dudas sobre Imagen o protocolo?<br>Llama al área de Relaciones Públicas y Comunicación,<br>Aplicación de logos o imagen: Ext. 1040<br>Protocolo: Ext. 1005</p>
 			</div>
@@ -560,7 +560,7 @@ include 'header.php';
 						</div>
 					</div>
 					<div class="row">
-						<a id="fe_erratas"><p class="feErratas">Fe de erratas mayo 2017 <span class="glyphicon glyphicon-download-alt"></span></p></a>
+						<a id="fe_erratas"><p class="feErratas">Fe de erratas mayo 2017 <i class="fas fa-download"></i></p></a>
 					</div>
 				</div>
 			</div>

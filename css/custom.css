@@ -1,4 +1,5 @@
 /*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
 
 /*Sans*/
 @font-face {
@@ -190,10 +191,30 @@
     }
   
 */
+html, body {
+      height: 100%;
+      width: 100%;
+      font-family: IndivisaTextSans, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+}
+
+h1,h3,p{
+      font-family: "IndivisaTextSans";
+      font-weight: 400;
+}
+
+h2{
+    font-family: "IndivisaTextSans";
+    font-weight: 300;
+}
 
 h1,h2,h3,p
 {
-	font-family: 'Roboto', serif;
+
 	color: #000;
 }
 h1{
@@ -202,8 +223,7 @@ h1{
 }
 h2
 {
-	font-weight: 300;
-	font-size: 36px;
+	font-size: 34px;
   color: #101d61;
   margin-top: 0px;
 
@@ -297,7 +317,7 @@ p.subtitulo{
   height: 100%;
   cursor: pointer;
   border: none;
-  padding: 37px 10px;
+  padding: 26px 10px;
 }
 
 .botonRojo2{
@@ -485,6 +505,7 @@ p.instrucciones_gris{
 p.manual_aplicacion{
   font-weight: normal;
   font-size: 30px;
+  line-height: 40px;
   color: #101d61;
   padding: 0% 10%;
 }
@@ -492,6 +513,7 @@ p.manual_aplicacion{
 p.titulo_descargables{
   font-weight: normal;
   font-size: 34px;
+  line-height: 44px;
   color: #101d61;
   margin-top: 70%;
   margin-bottom: -3%;
@@ -525,9 +547,10 @@ p.subtitulo_descargables{
 
 p.titulo_descargables2{
   font-weight: normal;
-  font-size: 34px;
+  font-size: 30px;
+  line-height: 40px;
   color: #101d61;
-  margin-top: 30%;
+  margin-top: 25%;
   margin-bottom: -3%;
   text-align: right;
 }
@@ -537,6 +560,7 @@ p.subtitulo_descargables2{
   font-size: 15px;
   color: #101d61;
   text-align: right;
+  margin-bottom: 0;
 }
 
 a{

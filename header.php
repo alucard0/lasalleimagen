@@ -22,7 +22,7 @@
 	<!--css-->
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/custom.min.css">
+	<link rel="stylesheet" href="css/custom.css">
 	<!--[if IE]>
 			<link rel="stylesheet" href="css/ie.css">
 		<![endif]-->
